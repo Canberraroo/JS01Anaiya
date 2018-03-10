@@ -1,0 +1,73 @@
+
+h1 {
+    color: yellow;
+    font-family: verdana;
+    font-size: 300%;
+    border: 5px solid red;
+}
+p  {
+    color: violet;
+    font-family: courier;
+    font-size: 200%;
+}
+
+body {
+    background: lightblue url("img_tree.gif") no-repeat fixed center;
+}
+
+ol {
+    border: 50px double yellow;
+}
+
+div {
+    border: double;
+}
+
+img {
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+}
+
+ol.a {
+  font: 15 px arial, sans-serif;
+}
+
+ol.b {
+  font: italic bold 12 px/30px Georia, serif;
+}
+
+ol.ex1 {max-height: 50px;
+max-width: 150px;
+}
+
+ul {
+    list-style: square inside url("sqpurple.gif");
+}
+
+ol {
+    margin: 35px;
+}
+
+h1 {
+    outline: 5px dotted green;
+}
+
+form.a {
+    outline: 2px dashed blue;
+}
+
+ol {
+    padding: 35px;
+}
+
+h1 {
+    text-shadow: 2px 2px #ff0000;
+}
+
+input[type=text] {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
