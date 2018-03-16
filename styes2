@@ -1,0 +1,44 @@
+p {
+    border: 50px double yellow;
+}
+
+img {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+p.a {
+  font: 15 px arial, sans-serif;
+}
+
+p.b {
+  font: italic bold 12 px/30px Georia, serif;
+}
+
+p.ex1 {max-height: 50px;
+max-width: 150px;
+}
+
+p {
+    list-style: square inside url("sqpurple.gif");
+}
+
+p {
+    margin: 35px;
+}
+
+h1 {
+    outline: 5px dotted green;
+}
+
+form.a {
+    outline: 2px dashed blue;
+}
+
+p {
+    padding: 35px;
+}
+
+h1 {
+    text-shadow: 2px 2px #ff0000;
+}
