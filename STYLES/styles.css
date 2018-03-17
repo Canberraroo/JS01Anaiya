@@ -9,3 +9,16 @@ p  {
     font-family: courier;
     font-size: 200%;
 }
+
+table, th, td {
+    border: 50px double blue;
+    font-size: 100%;
+    color: red;
+    font-family: verdana;
+}
+
+caption {
+  font-size: 200%;
+  color: red;
+  font-family: verdana;
+}
