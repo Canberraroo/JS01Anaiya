@@ -9,3 +9,8 @@ p  {
     font-family: courier;
     font-size: 200%;
 }
+
+img {
+  max-height: 1050px
+  max-width: 1050px
+}
