@@ -1,17 +1,7 @@
 
-h1 {
-    color: blue;
-    font-family: verdana;
-    font-size: 300%;
-}
-p  {
-    color: violet;
-    font-family: courier;
-    font-size: 200%;
-}
 
 table, th, td {
-    border: 50px double blue;
+    border: 10px double blue;
     font-size: 100%;
     color: red;
     font-family: verdana;
@@ -20,5 +10,87 @@ table, th, td {
 caption {
   font-size: 200%;
   color: red;
+  font-family: verdana;
+}
+
+
+h1 {
+    color: yellow;
+    font-family: verdana;
+    font-size: 500%;
+    border: 5px solid red;
+    outline: 5px dotted green;
+}
+ol  {
+    color: red;
+    font-family: courier;
+    font-size: 100%;
+}
+
+body {
+    background: lightblue url("img_tree.gif") no-repeat fixed center;
+}
+
+ol {
+    border: 50px solid: yellow;
+}
+
+img {
+    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+    max-height: 1050px;
+    max-width: 1050px;
+}
+
+ol.a {
+  font: 15 px arial, sans-serif;
+}
+
+ol.b {
+  font: italic bold 12 px/30px Georia, serif;
+}
+
+ol.ex1 {max-height: 50px;
+max-width: 150px;
+}
+
+ol {
+    list-style: square inside url("sqpurple.gif");
+}
+
+ol {
+    margin: 35px;
+}
+
+form.a {
+    outline: 2px dashed blue;
+    font-size: 500%;
+    color: red;
+    font-family: verdana;
+}
+
+ol {
+    padding: 35px;
+}
+
+h1 {
+    text-shadow: 2px 2px #ff0000;
+}
+
+input[type=text] {
+    background-color: red;
+    background-position: 10px 10px;
+    padding-left: 40px;
+
+}
+
+ol {property1: value1;
+property2:value2;
+}
+
+p {
+  outline: 2px dashed blue;
+  font-size: 500%;
+  color: blue;
   font-family: verdana;
 }
