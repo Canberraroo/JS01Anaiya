@@ -30,7 +30,7 @@ ol  {
 }
 
 body {
-    background: lightblue url("img_tree.gif") no-repeat fixed center;
+    background-image: url(http://hddesktopwallpapers.in/wp-content/uploads/2015/07/harry-potter-wallpaper-daniel.jpg);
 }
 
 ol {
@@ -56,9 +56,6 @@ ol.ex1 {max-height: 50px;
 max-width: 150px;
 }
 
-ol {
-    list-style: square inside url("sqpurple.gif");
-}
 
 ol {
     margin: 35px;
@@ -80,19 +77,24 @@ h1 {
 }
 
 input[type=text] {
-    background-color: red;
+    background-color: yellow;
     background-position: 10px 10px;
     padding-left: 40px;
-
+    color: red;
 }
 
-ol {property1: value1;
-property2:value2;
-}
+
 
 p {
+  background-color: red;
   outline: 2px dashed blue;
-  font-size: 500%;
-  color: blue;
+  font-size: 150%;
+  color: gold;
   font-family: verdana;
+}
+
+h2 {
+    color: navy;
+    font-family: sans-serif;
+    font-size: 200%;
 }
